@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridViewActivity">
+
+    <ImageView
+        android:id="@+id/inside_imageview"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="15dp"
+        android:text="Hi, Jinea!"
+        android:textColor="#000"
+        android:textSize="32sp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="90dp"
+        android:text="What would you like to eat?"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/editstyles"
+        android:drawableEnd="@drawable/ic_baseline_search_24"
+        android:hint="SEARCH"
+        android:paddingLeft="40dp" />
+
+
+    <GridView
+        android:id="@+id/gridview_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:paddingTop="200dp"/>
+
+
+</RelativeLayout>
